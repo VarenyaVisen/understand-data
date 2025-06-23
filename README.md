@@ -1,51 +1,28 @@
-# 🧠 Asking the Right Questions: A Data Exploration Checklist
+# 📊 Data Exploration: 7 Essential Questions
 
-This repository contains a Jupyter Notebook that outlines the **key questions** data scientists and ML practitioners should ask about their data **before building any machine learning model**.
-
-Understanding your data deeply is the first step toward building a reliable, interpretable, and effective model. This notebook serves as a guided checklist for structured exploratory data analysis (EDA), data quality checks, and feature understanding.
+This repository contains a Jupyter Notebook that walks through **7 essential questions** to ask about your dataset before building any machine learning model. It provides a beginner-friendly structure for performing basic **exploratory data analysis (EDA)**.
 
 ---
 
-## 📘 What's Inside?
+## 🧠 Questions Covered in the Notebook
 
-The notebook walks through critical questions related to:
+1. **How big is the data?**  
+   → Understand the number of rows and columns.
 
-- 📊 **Understanding the Dataset**
-  - What does each feature represent?
-  - What is the target variable?
-  - What is the size and shape of the dataset?
+2. **How does the data look like?**  
+   → Preview the first few records to get a sense of the data.
 
-- 🧹 **Data Cleaning**
-  - Are there any missing values?
-  - Are there outliers?
-  - Are data types appropriate?
+3. **What is the data type of columns?**  
+   → Check if each column has the appropriate data type.
 
-- 📈 **EDA & Distribution**
-  - What does the distribution of features look like?
-  - Are there correlations between features and the target?
-  - Are there categorical variables? If yes, how many unique values?
+4. **Are there any missing values?**  
+   → Identify and quantify any null or missing values.
 
-- 🧠 **Feature Engineering Considerations**
-  - Should any features be combined, dropped, or transformed?
-  - Are there date/time features that can be broken down?
-  - Should we scale or normalize the data?
+5. **How does the data look mathematically?**  
+   → Use statistical summaries like mean, median, standard deviation, etc.
 
-- 🧪 **Data Splitting Strategy**
-  - How should we split the data?
-  - Is the target variable imbalanced?
+6. **Are there duplicate values?**  
+   → Check for and count duplicate rows.
 
-- 🔄 **Next Steps**
-  - Based on our findings, how should we proceed with preprocessing and modeling?
-
----
-
-## 💡 Why This Matters
-
-Asking the right questions helps you:
-
-- Catch potential data quality issues early
-- Avoid garbage-in-garbage-out (GIGO) situations
-- Build intuition and domain understanding
-- Guide proper preprocessing, model selection, and evaluation
-
----
+7. **How is the correlation between columns?**  
+   → Visualize and interpret correlations between numeric features.
