@@ -1,40 +1,42 @@
-# 📊 Data Exploration: 7 Essential Questions + Univariate EDA
+# 📊 Data Exploration: 7 Essential Questions + EDA Notebook Series
 
-This repository contains two Jupyter Notebooks designed to help you perform **basic exploratory data analysis (EDA)** before building any machine learning model.
+This repository contains a series of Jupyter Notebooks that guide you through structured **Exploratory Data Analysis (EDA)** — from asking the right initial questions to performing univariate, bivariate, and multivariate analysis on both categorical and numerical data.
 
 ---
 
 ## 📘 Notebooks Included
 
-1. **7 Essential Questions Notebook**  
-   A beginner-friendly structure that walks through the key questions to ask about your dataset:
+1. ### 🧠 7 Essential Questions Notebook
 
-   ### 🧠 Questions Covered:
+A beginner-friendly notebook that walks through the key questions you should ask about your dataset before any modeling:
 
-   1. **How big is the data?**  
-      → Understand the number of rows and columns.
+#### Questions Covered:
 
-   2. **How does the data look like?**  
-      → Preview the first few records to get a sense of the data.
+1. **How big is the data?**  
+2. **How does the data look like?**  
+3. **What is the data type of columns?**  
+4. **Are there any missing values?**  
+5. **How does the data look mathematically?**  
+6. **Are there duplicate values?**  
+7. **How is the correlation between columns?**  
 
-   3. **What is the data type of columns?**  
-      → Check if each column has the appropriate data type.
+---
 
-   4. **Are there any missing values?**  
-      → Identify and quantify any null or missing values.
+2. ### 🔍 Univariate EDA Notebook
 
-   5. **How does the data look mathematically?**  
-      → Use statistical summaries like mean, median, standard deviation, etc.
+Focused on analyzing individual features:
+- **Categorical features**: frequency counts, bar plots
+- **Numerical features**: histograms, boxplots, distribution summaries
 
-   6. **Are there duplicate values?**  
-      → Check for and count duplicate rows.
+---
 
-   7. **How is the correlation between columns?**  
-      → Visualize and interpret correlations between numeric features.
+3. ### 🔗 Bivariate & Multivariate Analysis Notebook
 
-2. **Univariate EDA Notebook**  
-   A separate notebook that dives into **univariate analysis**:
-   - 🔸 Visual and statistical exploration of **categorical features**
-   - 🔹 Distribution and descriptive stats for **numerical features**
+Analyzes relationships between pairs or groups of features:
+- 📈 **Numerical vs Numerical**: scatter plots, correlation
+- 📊 **Numerical vs Categorical**: box plots, group-wise stats
+- 📋 **Categorical vs Categorical**: crosstabs, stacked bar charts, heatmaps
+
+This notebook helps uncover patterns, trends, or interactions that could influence modeling decisions.
 
 ---
